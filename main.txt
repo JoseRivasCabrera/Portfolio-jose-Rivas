@@ -14,6 +14,7 @@ solo su texto descriptivo cambie su color
 1. cambiar los iconos de las hard skills para que todos cambiende color con el hover
 2. cambiar las clases, eliminando las mayusculas y poniendo el mismo formato a todas
 
+
 ↑↑ cosas por reparar ↑↑
 
 
