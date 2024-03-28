@@ -1,0 +1,43 @@
+.header--container {
+    background-color: #171718;
+    color: white;
+    padding: 15px 0;
+    font-family: inter, sans-serif;
+}
+
+.header--elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tittle--name {
+    font-size: 24px;
+}
+
+.header--menu {
+    display: flex;
+    gap: 44px;
+}
+
+.element--menu {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.element--menu:hover {
+    text-decoration: underline #47D16E 3px;
+}
+
+.btn--contacto {  
+    padding: 8px 14px;
+    background-color: #47D16E;
+    color: white;
+    border-radius: 8px;
+}
+
+.btn--contacto:hover {
+    background-color: #2e8747;
+}
+/* ↑↑ MENU NAV ↑↑ */

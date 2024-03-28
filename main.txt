@@ -1,0 +1,26 @@
+Soy una persona de facil comunicación, siempre procuro cominicarme de manera efectiva y acertiva con las personas en general
+
+Me desempeño muy bien en el trabajo en equipo debido a mis buenas habilidades de comunicación no se me complica socializar y llevar a cabo las tareas con el team
+
+
+↓↓
+Necesito hacer una funcion que cuando el cursor este arriba de un icono de una hard skill
+solo su texto descriptivo cambie su color
+↑↑
+
+
+↓↓ cosas por reparar ↓↓
+
+1. cambiar los iconos de las hard skills para que todos cambiende color con el hover
+2. cambiar las clases, eliminando las mayusculas y poniendo el mismo formato a todas
+
+↑↑ cosas por reparar ↑↑
+
+
+FOOTER: 
+<div class="box__figma">
+      <a href="https://www.figma.com/file/n2E7YKBumQjKmJEZBrBvwg/Portafolio-Personal---Free-Template-(Community)?type=design&node-id=0-1&mode=design&t=7CVxcC4PtnKRh9a5-0"
+        class="figma">
+        Portafolio en figma
+      </a>
+    </div>

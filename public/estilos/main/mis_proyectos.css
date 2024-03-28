@@ -1,0 +1,48 @@
+.mis__proyectos {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.proyecto__1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  gap: 250px;
+}
+
+.descripcion--proyecto {
+  width: 20%;
+  color: white;
+  font-size: 24px;
+  border: inset 1px white;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icono__proyecto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 48px;
+  color: #b15e06;
+}
+
+.descripcion__icono--1 {
+  font-size: 12px;
+  text-align: center;
+}
+
+.caja__proyecto--1 {
+  padding: 20px;
+}
+
+.img__proyecto--yalevas {
+  border-radius: 20px;
+  height: 300px;
+}
+

@@ -1,0 +1,60 @@
+.contenedor--AcercaDeMi {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  /* margin-top: 80px; */
+}
+
+.caja--AcercaDeMi {
+  width: 55%;
+  display: flex;
+  gap: 20px;
+  color: white;
+  border: inset 1px white;
+  box-shadow: 2px 2px 4px #47D16E, -2px -2px 100px #186f31;
+  padding: 15px;
+  background-color: #1F1F21;
+  font-family: inter, sans-serif;
+  line-height: 1.2;
+}
+
+.caja__mi--foto {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.mi--Foto {
+  width: 100%;
+}
+
+.texto--AcercaDeMi {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 70%;
+}
+
+.titulo--AcercaDeMi {
+  font-size: 28px;
+  color: #47D16E;
+}
+
+.descripcion--AcercaDeMi {
+  font-size: 16px;
+  letter-spacing: 0.44px;
+  line-height: 1.3;
+}
+
+.btn--AcercaDeMi {
+  width: 169px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 8px;
+}

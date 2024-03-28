@@ -1,0 +1,88 @@
+.main--container {
+  background-color: #171718;
+}
+
+.img--Encabezado {
+  width: 100%;
+}
+
+.encabezado {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo--encabezado {
+  display: flex;
+  flex-direction: column;
+  width: 30%; 
+  color: white;
+  font-size: 42px;
+  text-align: center;
+  padding: 80px;
+  gap: 18px;
+  font-family: inter, sans-serif;
+}
+
+.mi__Nombre--Encabezado {
+  color: #47D16E;
+}
+
+.descripcion--encabezado {
+  display: flex;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+.descripcion--Portafolio {
+  width: 80%;
+  font-size: 16px;
+}
+
+.caja--Botones {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.boton--Proyectos {
+  width: 169px;
+  height: 48px;
+  border-radius: 8px;
+  border: 2px solid #47D16E;
+  background-color: #47D16E;
+  color: white;
+  font-size: 16px;
+}
+
+.boton--Proyectos:hover {
+  border: 2px solid #2e8747;
+  background-color: #2e8747;
+}
+
+.boton--Cv {
+  width: 169px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.boton--Cv:hover {
+  border: 2px solid #47D16E;
+  color: #47D16E;
+}
+
+.icono--Descargar {
+  color: white;
+}
+
+.icono--Descargar:hover {
+  color: #47D16E;
+}
