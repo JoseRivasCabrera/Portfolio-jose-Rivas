@@ -5,7 +5,7 @@
 }
 
 .elementos__del--footer {
-  width: 71%;
+  width: 960px;
   display: flex;
   flex-direction: row;
   font-family: inter, sans-serif;

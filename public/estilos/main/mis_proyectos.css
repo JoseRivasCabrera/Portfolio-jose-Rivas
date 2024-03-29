@@ -1,7 +1,17 @@
 .mis__proyectos {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 30px 0;
+}
+
+.titulo__mis--proyectos {
+  width: 100%;
+  font-size: 28px;
+  color: #47D16E;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
 }
 
 .proyecto__1 {
@@ -38,6 +48,8 @@
 }
 
 .caja__proyecto--1 {
+  display: flex;
+  justify-content: center;
   padding: 20px;
 }
 

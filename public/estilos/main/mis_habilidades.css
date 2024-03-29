@@ -46,49 +46,40 @@
 
 .mis__hard--skills {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  padding: 0 0 30px 0;
+  align-items: center; /* Esto centrará los elementos horizontalmente */
+  padding-bottom: 30px; /* Añade un poco de espacio inferior */
+}
+
+.mis__hard--skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
 }
 
 .iconos__hard--skills {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
   color: white;
 }
 
-.icono__hard--skill {
+.caja__icono--skill {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  font-size: 48px;
+  align-items: center;
+  gap: 10px;
 }
 
-.icono__hard--skill:hover {
-  color: #47D16E;
+.icono__hard {
+  width: 58px;
 }
 
 .descripcion__icono {
-  font-size: 12px;
   text-align: center;
 }
 
 .descripcion__icono:hover {
   color: #47D16E;
 }
-
-.iconoir--adobe-photoshop {
-  display: flex;
-  justify-content: center;
-}
-
-.iconoir--adobe-photoshop::after {
-  display: inline-block;
-  width: 48px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'%3E%3Cpath d='M21 7v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4'/%3E%3Cpath d='M7 16v-4m0 0V8h2a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2zm10-1c-.306-.613-.933-1-1.618-1H15a1.5 1.5 0 0 0-1.5 1.5v0A1.5 1.5 0 0 0 15 13h.5a1.5 1.5 0 0 1 1.5 1.5v0a1.5 1.5 0 0 1-1.5 1.5h-.382a1.809 1.809 0 0 1-1.618-1v0'/%3E%3C/g%3E%3C/svg%3E");
-}
-
