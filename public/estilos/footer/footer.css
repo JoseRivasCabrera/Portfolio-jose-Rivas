@@ -12,7 +12,7 @@
 }
 
 .elementos__internos--footer {
-  display: flex; 
+  display: flex;
 }
 
 .caja__elemento--footer {
@@ -37,13 +37,31 @@
   color: #47D16E;
 }
 
+.icono__footer--url {
+ display: inline-block;
+}
+
 .icono__footer {
-  font-size: 25px;
-  padding: 0 10px;
+  width: 35px;
   color: white;
 }
 
+.icono__footer:hover {
 
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .elementos__del--footer {
+    width: 640px;
+  }
+
+  .caja__elemento--footer {
+    width: 150px;
+  }
+
+}
 
 
 

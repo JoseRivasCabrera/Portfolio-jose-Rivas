@@ -1,8 +1,7 @@
 .contenedor--AcercaDeMi {
   display: flex;
   justify-content: center;
-  padding: 40px;
-  /* margin-top: 80px; */
+  /* este padding hay que eliminarlo ? */
 }
 
 .caja--AcercaDeMi {
@@ -57,4 +56,21 @@
   border: 1px solid white;
   background-color: transparent;
   border-radius: 8px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .contenedor--AcercaDeMi {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .caja--AcercaDeMi {
+    width: 70%;
+  }
+
+  .descripcion--AcercaDeMi {
+    font-size: 18px;
+  }
+  
 }
