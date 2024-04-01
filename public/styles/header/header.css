@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .header--container {
   background-color: #171718;
   color: white;
@@ -21,7 +25,6 @@
 }
 
 .element--menu {
-  text-decoration: none;
   color: white;
   font-size: 16px;
 }
@@ -42,7 +45,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-.header--menu {
-    display: none;
+.header--container {
+  height: 50px;
 }
 }

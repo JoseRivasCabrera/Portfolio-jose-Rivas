@@ -2,7 +2,7 @@
   background-color: #171718;
 }
 
-.img--Encabezado {
+.img--encabezado {
   width: 100%;
 }
 
@@ -24,7 +24,7 @@
   font-family: inter, sans-serif;
 }
 
-.mi__Nombre--Encabezado {
+.mi__nombre--encabezado {
   color: #47D16E;
 }
 
@@ -34,18 +34,18 @@
   line-height: 1.2;
 }
 
-.descripcion--Portafolio {
+.descripcion--portafolio {
   width: 80%;
   font-size: 16px;
 }
 
-.caja--Botones {
+.caja--botones {
   display: flex;
   justify-content: center;
   gap: 12px;
 }
 
-.boton--Proyectos {
+.boton--proyectos {
   width: 169px;
   height: 48px;
   border-radius: 8px;
@@ -55,12 +55,12 @@
   font-size: 16px;
 }
 
-.boton--Proyectos:hover {
+.boton--proyectos:hover {
   border: 2px solid #2e8747;
   background-color: #2e8747;
 }
 
-.boton--Cv {
+.boton--cv {
   width: 169px;
   height: 48px;
   border-radius: 8px;
@@ -74,16 +74,16 @@
   gap: 5px;
 }
 
-.boton--Cv:hover {
+.boton--cv:hover {
   border: 2px solid #47D16E;
   color: #47D16E;
 }
 
-.icono--Descargar {
+.icono--descargar {
   color: white;
 }
 
-.icono--Descargar:hover {
+.icono--descargar:hover {
   color: #47D16E;
 }
 
