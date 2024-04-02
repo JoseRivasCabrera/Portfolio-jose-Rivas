@@ -38,6 +38,17 @@ function cambiarHeader() {
     contenedorMenu.innerHTML = contenidoMenu;
 }
 
-window.onload = cambiarHeader;
+function cerrarMenu() {
+    let menuHamburguesa = document.getElementById('menu_hamburguesa');
+    if (menuHamburguesa.checked) {
+        menuHamburguesa.checked = false;
+    }
+}
+
+window.onload = function() {
+    cambiarHeader();
+    window.addEventListener('scroll', cerrarMenu);
+};
+
 window.onresize = cambiarHeader;
 
