@@ -59,15 +59,33 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  
+
   .caja__proyecto--1 {
     display: flex;
     justify-content: center;
     padding: 20px;
   }
-  
+
   .img__proyecto--yalevas {
     height: 200px;
+  }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+
+  .proyecto__1 {
+    gap: 100px;
+  }
+
+  .img__proyecto--yalevas {
+    border-radius: 20px;
+    height: 105px;
+  }
+
+  .descripcion--proyecto {
+    width: 40%;
+    font-size: 16px;
   }
 
 }

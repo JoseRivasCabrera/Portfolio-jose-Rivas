@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
 
   ol,
   ul {
@@ -23,7 +23,7 @@
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    padding: 0 2rem;
+    padding: 0 1.3rem;
   }
 
   .labe_hamburguesa {}
@@ -45,7 +45,7 @@
     width: 25%;
     background-color: rgba(71, 209, 110, 0.5);
     position: absolute;
-    top: 64px;
+    top: 66px;
     right: 0;
     height: 0;
     overflow: hidden;
@@ -68,4 +68,17 @@
     font-family: inter, sans-serif;
   }
 
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  .ul_links {
+    width: 30%;
+    gap: 1.5rem;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  
+  .link {
+    font-size: 1.1rem;
+  }
 }

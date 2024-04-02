@@ -63,7 +63,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  
+
   .caja--AcercaDeMi {
     width: 70%;
   }
@@ -71,5 +71,23 @@
   .descripcion--AcercaDeMi {
     font-size: 18px;
   }
-  
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  .caja--acercademi {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .caja__mi--foto {
+    width: 90%;
+  }
+
+  .texto--acercademi {
+    width: 100%;
+  }
+
 }

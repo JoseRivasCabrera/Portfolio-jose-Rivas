@@ -45,11 +45,6 @@
   color: white;
 }
 
-.icono__footer:hover {
-
-}
-
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
   .elementos__del--footer {
@@ -58,6 +53,21 @@
 
   .caja__elemento--footer {
     width: 150px;
+  }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  .elementos__del--footer {
+    width: 340px;
+  }
+
+  .caja__elemento--footer {
+    width: 90px;
+  }
+
+  .elemento__footer {
+    font-size: 12px;
   }
 
 }
