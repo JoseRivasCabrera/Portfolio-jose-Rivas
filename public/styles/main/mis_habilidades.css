@@ -8,7 +8,7 @@
 .titulo__mis--habilidades {
   width: 100%;
   font-size: 28px;
-  color: #47D16E;
+  color: var(--color-letras);
   text-align: center;
   padding: 40px 0;
 }
@@ -80,7 +80,7 @@
 }
 
 .descripcion__icono:hover {
-  color: #47D16E;
+  color: var(--color-letras);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

@@ -1,5 +1,5 @@
 .main--container {
-  background-color: #171718;
+  background-color: var(--color-header);
 }
 
 .img--encabezado {
@@ -49,15 +49,15 @@
   width: 169px;
   height: 48px;
   border-radius: 8px;
-  border: 2px solid #47D16E;
-  background-color: #47D16E;
+  border: 2px solid var(--color-letras);
+  background-color: var(--color-letras);
   color: white;
   font-size: 16px;
 }
 
 .boton--proyectos:hover {
-  border: 2px solid #2e8747;
-  background-color: #2e8747;
+  border: 2px solid var(--hover-boton);
+  background-color: var(--hover-boton);
 }
 
 .boton--cv {
@@ -75,7 +75,7 @@
 }
 
 .boton--cv:hover {
-  border: 2px solid #47D16E;
+  border: 2px solid var(--color-letras);
   color: #47D16E;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .icono--descargar:hover {
-  color: #47D16E;
+  color: var(--color-letras);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

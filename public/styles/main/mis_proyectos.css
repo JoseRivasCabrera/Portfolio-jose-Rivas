@@ -8,7 +8,7 @@
 .titulo__mis--proyectos {
   width: 100%;
   font-size: 28px;
-  color: #47D16E;
+  color: var(--color-letras);
   text-align: center;
   padding-top: 100px;
   padding-bottom: 40px;

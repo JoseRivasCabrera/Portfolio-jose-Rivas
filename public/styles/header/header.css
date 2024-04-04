@@ -3,7 +3,7 @@ a {
 }
 
 .header--container {
-  background-color: #171718;
+  background-color: var(--color-header);
   color: white;
   padding: 15px 0;
   font-family: inter, sans-serif;
@@ -30,18 +30,18 @@ a {
 }
 
 .element--menu:hover {
-  text-decoration: underline #47D16E 3px;
+  text-decoration: underline var(--color-letras) 3px;
 }
 
 .btn--contacto {
   padding: 8px 14px;
-  background-color: #47D16E;
+  background-color: var(--color-letras);
   color: white;
   border-radius: 8px;
 }
 
 .btn--contacto:hover {
-  background-color: #2e8747;
+  background-color: var(--hover-boton);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

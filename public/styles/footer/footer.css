@@ -1,5 +1,5 @@
 .footer--container {
-  background-color: #131414;
+  background-color: var(--color-footer);
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -35,7 +35,7 @@
 }
 
 .elemento__footer--1st {
-  color: #47D16E;
+  color: var(--color-letras);
 }
 
 .icono__footer--url {
@@ -52,7 +52,7 @@
   align-items: center;
   gap: 1%;
   width: 85%;
-  border-top: 1px solid #47D16E;
+  border-top: 1px solid var(--color-letras);
   margin-left: 5%;
   padding: 0.5%;
 }

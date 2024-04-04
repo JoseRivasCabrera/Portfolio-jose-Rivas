@@ -28,7 +28,7 @@ function cambiarHeader() {
         contenidoMenu = `<div class="header--elements">
         <h1 class="tittle--name">Rivas</h1>
         <nav class="header--menu">
-          <a href="menu-plegable.html" class="element--menu"><p>Inicio</p></a>
+          <a href="#" class="element--menu"><p>Inicio</p></a>
           <a href="" class="element--menu"><p>Acerca de mi</p></a>
           <a href="" class="element--menu"><p>Proyectos</p></a>
         </nav>

@@ -35,7 +35,7 @@
 
 .titulo--acercademi {
   font-size: 28px;
-  color: #47D16E;
+  color: var(--color-letras);
 }
 
 .descripcion--acercademi {
