@@ -20,7 +20,7 @@ function cambiarHeader() {
                 <a href="#" class="link">Sobre mi</a>
             </li>
             <li class="li_links">
-                <a href="../contacto.html" class="link">Contacto</a>
+                <a href="contacto.html" class="link">Contacto</a>
             </li>
         </ul>
     </nav>`;
@@ -28,11 +28,11 @@ function cambiarHeader() {
         contenidoMenu = `<div class="header--elements">
         <h1 class="tittle--name">Rivas</h1>
         <nav class="header--menu">
-          <a href="../index.html" class="element--menu"><p>Inicio</p></a>
+          <a href="./index.html" class="element--menu"><p>Inicio</p></a>
           <a href="" class="element--menu"><p>Acerca de mi</p></a>
           <a href="#" class="element--menu"><p>Proyectos</p></a>
         </nav>
-        <a href="../contacto.html" class="btn--contacto">Contáctame</a>
+        <a href="./contacto.html" class="btn--contacto">Contáctame</a>
       </div>`
     }
     contenedorMenu.innerHTML = contenidoMenu;
