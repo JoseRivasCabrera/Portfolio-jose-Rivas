@@ -7,6 +7,7 @@ main {
 
 .contenedor--formulario {
   width: 600px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,14 +27,14 @@ main {
   font-size: 48px;
   color: var(--color-letras);
   font-weight: 500;
-} 
+}
 
 .subtitulo--formulario {
   color: white;
   font-size: 14px;
 }
 
-.box__formulario--contacto { 
+.box__formulario--contacto {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -68,6 +69,7 @@ main {
 }
 
 .area--mensaje {
+  max-width: 600px;
   height: 80px;
   background-color: transparent;
 }
@@ -87,7 +89,7 @@ main {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
   main {
-    height: 90vmax;
+    height: 100%;
   }
 
   .contenedor--formulario {
@@ -102,16 +104,22 @@ main {
   .box__formulario--contacto {
     width: 70%;
     height: 60%;
-    gap: 40px;
+    padding: 40px 20px;
+    gap: 20px;
     justify-content: center;
   }
 
   .input--formulario {
-    height: 60px;
+    height: 48px;
   }
 
   .area--mensaje {
     height: 120px;
+    max-width: 600px;
+  }
+
+  .btn__enviar--correo {
+    height: 130px;
   }
 
 }
@@ -125,5 +133,9 @@ main {
   .box__formulario--contacto {
     width: 80%;
   }
-  
+
+  .area--mensaje {
+    max-width: 400px;
+
+}
 }
