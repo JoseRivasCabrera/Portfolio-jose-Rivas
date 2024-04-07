@@ -14,7 +14,7 @@ function cambiarHeader() {
 
         <ul class="ul_links">
             <li class="li_links">
-                <a href="../index.html" class="link">Inicio</a>
+                <a href="./index.html" class="link">Inicio</a>
             </li>
             <li class="li_links">
                 <a href="#" class="link">Sobre mi</a>
