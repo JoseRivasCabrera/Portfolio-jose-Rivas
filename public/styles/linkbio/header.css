@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-contenedor {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10%;
+  padding: 15px 0;
+}
+
+.header-bloque-izq {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-bloque-der {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--fondo-gris);
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+
+.icono-header {
+  font-size: 1.5rem;
+  background-color: #ffedd5;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+
+.titulo-pagina {
+  font-size: 22px;
+}
