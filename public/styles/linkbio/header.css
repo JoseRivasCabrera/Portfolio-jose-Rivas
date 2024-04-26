@@ -17,15 +17,6 @@ header {
   gap: 10px;
 }
 
-.header-bloque-der {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background-color: var(--fondo-gris);
-  padding: 5px 20px;
-  border-radius: 15px;
-}
-
 .icono-header {
   font-size: 1.5rem;
   background-color: #ffedd5;
@@ -35,4 +26,27 @@ header {
 
 .titulo-pagina {
   font-size: 22px;
+}
+
+.header-bloque-der {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--fondo-gris);
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+
+.header-bloque-der:hover {
+  background-color: #c7cbce;
+  transition: .3s;
+}
+
+.tiktok {
+  color: black;
+}
+
+.bxl-tiktok {
+  color: black;
+  font-size: 24px;
 }
