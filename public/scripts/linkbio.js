@@ -31,7 +31,27 @@ const contenidoInfo = `<div class="contenedor-elementos-info">
 </div>
 
 </div>`;
-const contenidoServicios = `<p>agregando el contenido</p>`;
+const contenidoServicios = `<section class="contenedor-elementos-servicio">
+<div class="contenido-servicio">
+  <div class="contenedor-img">
+    <img class="img-servicio" src="public/img/image.png" alt="">
+  </div>
+  <div class="contenedor-textos-servicio">
+    <H1 class="titulo-prodcuto">Landing page</H1>
+    <h2 class="descripcion-servicio">Creo la landig page ideal para tu negocio</h2>
+  </div>
+  </div>
+
+  <div class="contenido-servicio">
+    <div class="contenedor-img">
+      <img class="img-servicio" src="public/img/image.png" alt="">
+    </div>
+    <div class="contenedor-textos-servicio">
+      <H1 class="titulo-servicio">LinkTree</H1>
+      <h2 class="descripcion-servicio">Creo el servicio de links ideal para tu negocio</h2>
+    </div>
+    </div>
+</section>`;
 
 contenedorDelContenido.innerHTML = contenidoInfo;
 

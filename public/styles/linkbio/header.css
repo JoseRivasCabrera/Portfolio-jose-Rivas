@@ -20,12 +20,14 @@ header {
 .icono-header {
   font-size: 1.5rem;
   background-color: #ffedd5;
+  font-weight: bold;
   padding: 6px 14px;
   border-radius: 5px;
 }
 
 .titulo-pagina {
   font-size: 22px;
+  font-weight: 400;
 }
 
 .header-bloque-der {

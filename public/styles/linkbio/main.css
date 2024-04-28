@@ -8,7 +8,7 @@
 main {
   display: flex;
   justify-content: center;
-  
+
 }
 
 a {
@@ -37,7 +37,7 @@ a {
 .navar-pestanha {
   width: 95%;
   text-align: center;
-  padding: 10px 0; 
+  padding: 10px 0;
   border-radius: 8px;
 }
 
@@ -56,6 +56,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
 .contenedor-elementos-info {
@@ -97,4 +98,51 @@ a {
 
 .link-url {
   color: black;
+}
+
+.contenedor-elementos-servicio {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  gap: 1rem;
+  
+}
+
+.contenido-servicio {
+  display: flex;
+  border: 2px solid var(--fondo-gris);
+  padding: 15px;
+}
+
+.contenido-servicio:hover {
+  background-color: #c7cbce;
+}
+
+.contenedor-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-servicio {
+  width: 50%;
+}
+
+.contenedor-textos-servicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: .5rem;
+}
+
+.titulo-servicio {
+  font-size: 32px;
+}
+
+.descripcion-servicio {
+  font-size: 12px;
 }
