@@ -4,13 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap"
+    rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="public/styles/varriables.css">
   <link rel="stylesheet" href="public/styles/linkbio/header.css">
   <link rel="stylesheet" href="public/styles/linkbio/main.css">
+  <link rel="stylesheet" href="public/styles/linkbio/footer.css">
+  <link rel="stylesheet" href="public/styles/servicios/servicios.css">
   <title>Rivas</title>
 </head>
 
@@ -20,9 +24,9 @@
     <section class="header-contenedor">
 
       <div class="header-bloque-izq">
-        <p class="icono-header">R</p>
-        <!-- <i class='bx bx-sitemap icono-header'></i> -->
-        <h1 class="titulo-pagina">Rivas Web Developer</h1>
+        <img src="public/img/Letra _R_logo.svg" class="icono-header"></img>
+
+        <h1 class="titulo-pagina">Rivas Tech</h1>
       </div>
 
       <a class="header-bloque-der" href="https://tinyurl.com/ticodevr">
@@ -40,23 +44,93 @@
       <div class="contenedor-navbar">
         <div class="navar">
           <a href="#" class="navar-bloque-izq elemento-navar" id="seleccion-navar-izq">
-            <p class="navar-pestanha">Servicios</p>
+            <p id="servicios" class="navar-pestanha navar-text-color">Servicios</p>
           </a>
 
           <a href="#" class="navar-bloque-der elemento-navar" id="seleccion-navar-der">
-            <p class="navar-pestanha">Info</p>
+            <p id="informacion" class="navar-pestanha">Información</p>
           </a>
         </div>
       </div>
 
       <div class="contenedor-contenido" id="contenedor-contenido">
 
+        <section class="caja-servicio">
+
+          <div class="contenedor-servicio-plata">
+
+            <div class="caja-descuento">
+              <img src="public/img/elementos-canva/imd-descuento.webp" alt="" class="img-descuento">
+              <h2 class="nombre-plan">PLAN PLATA</h2>
+            </div>
+  
+            <div class="caja-logo-servicio">
+              <img src="public/img/elementos-canva/Logo-canva-pro-sin-fondo.webp" alt="" class="logo-servicio">
+            </div>
+  
+            <div class="caja-descripcion-servicio">
+              <h1 class="descripcion-servicio">CANVA PRO 6 MESES</h1>
+            </div>
+  
+            <div class="caja-precios">
+              <p class="precio-servicio"><span class="simbolo-dolar">$</span>6,45</p>
+              <p class="precio-descuento"><span>$</span>12,45</p>
+            </div>
+  
+            <div class="caja-btn-pedir">
+              <a href="" class="btn-pedir-servicio-plata">Pedir</a>
+            </div>
+
+          </div>
+
+        <!-- ↓↓ -->
+          <div class="contenedor-servicio-oro">
+
+            <div class="caja-descuento">
+              <img src="public/img/elementos-canva/imd-descuento.webp" alt="" class="img-descuento">
+              <h2 class="nombre-plan">PLAN ORO</h2>
+            </div>
+  
+            <div class="caja-logo-servicio">
+              <img src="public/img/elementos-canva/Logo-canva-pro-sin-fondo.webp" alt="" class="logo-servicio">
+            </div>
+  
+            <div class="caja-descripcion-servicio">
+              <h1 class="descripcion-servicio">CANVA PRO 12 MESES</h1>
+            </div>
+  
+            <div class="caja-precios">
+              <p class="precio-servicio"><span class="simbolo-dolar">$</span>10,45</p>
+              <p class="precio-descuento"><span>$</span>20,45</p>
+            </div>
+  
+            <div class="caja-btn-pedir">
+              <a href="" class="btn-pedir-servicio-oro">Pedir</a>
+            </div>
+
+          </div>
+          
+
+        </section>
+
+  </main>
+
+  <footer>
+
+    <section class="contenedor-footer">
+
+      <div class="contenedor-copy">
+        <h1 class="titulo-footer texto-footer">Rivas Tech</h1>
+        <i class='bx bx-copyright icono-footer texto-footer'></i>
+
       </div>
+      <p class="anho-desarrollo texto-footer">2024</p>
 
     </section>
 
-  </main>
-  <script src="public/scripts/linkbio.js"></script>
+  </footer>
+
+  <!-- <script src="public/scripts/linkbio.js"></script> -->
 </body>
 
 </html>

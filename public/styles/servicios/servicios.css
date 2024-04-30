@@ -1,0 +1,111 @@
+.caja-servicio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contenedor-servicio-plata, .contenedor-servicio-oro  {
+  width: 35%;
+  padding: 15px;
+  /* border: 1px solid salmon; */
+  border-radius: 18px;
+}
+
+.contenedor-servicio-plata {
+  border: 3px solid #4B5FE3;
+}
+
+.contenedor-servicio-oro {
+  border: 3px solid #E8A83D;
+}
+
+.contenedor-servicio-plata:hover {
+  background-color: #C2E6FA;
+}
+
+.contenedor-servicio-oro:hover {
+  background-color: #FFED9F;
+}
+
+
+
+.caja-descuento {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.img-descuento {
+  width: 20%;
+}
+
+.nombre-plan {
+  width: 80%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.caja-logo-servicio {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-servicio {
+  width: 70%;
+}
+
+.caja-descripcion-servicio {
+  display: flex;
+  justify-content: center;
+}
+
+.descripcion-servicio {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+
+.caja-precios {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 20px 0;
+  gap: 5%;
+}
+
+.simbolo-dolar {
+  font-size: 18px;
+}
+
+.precio-servicio {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #cc5e21;
+}
+
+.precio-descuento {
+  text-decoration: line-through;
+  color: #9d9ea0;
+}
+
+.caja-btn-pedir {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-pedir-servicio-plata, .btn-pedir-servicio-oro {
+  width: 90%;
+  padding: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  background-color: #4B5FE3;
+}
+
+.btn-pedir-servicio-plata:hover {
+  background-color: #0923ce;
+}
+
+.btn-pedir-servicio-oro:hover {
+  background-color: #E8A83D;
+}

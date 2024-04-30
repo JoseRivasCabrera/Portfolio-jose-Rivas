@@ -12,21 +12,19 @@ header {
 }
 
 .header-bloque-izq {
+  width: 50%;
   display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
 .icono-header {
-  font-size: 1.5rem;
-  background-color: #ffedd5;
-  font-weight: bold;
+  width: 15%;
   padding: 6px 14px;
   border-radius: 5px;
 }
 
 .titulo-pagina {
-  font-size: 22px;
+  font-family: "Teko", sans-serif;
+  font-size: 32px;
   font-weight: 400;
 }
 
@@ -35,20 +33,21 @@ header {
   align-items: center;
   gap: 10px;
   background-color: var(--fondo-gris);
-  padding: 5px 20px;
+  padding: 0 20px;
   border-radius: 15px;
 }
 
 .header-bloque-der:hover {
-  background-color: #c7cbce;
+  background-color: var(--letras-oscuras);
   transition: .3s;
 }
 
 .tiktok {
   color: black;
+  font-size: 18px;
 }
 
 .bxl-tiktok {
   color: black;
-  font-size: 24px;
+  font-size: 20px;
 }

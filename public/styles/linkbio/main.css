@@ -21,6 +21,7 @@ a {
 
 .contenedor-navbar {
   padding: 8px;
+  border-radius: 10px;
   background-color: var(--fondo-gris);
   display: flex;
   justify-content: center;
@@ -39,6 +40,15 @@ a {
   text-align: center;
   padding: 10px 0;
   border-radius: 8px;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "times new roman", sans-serif;
+
+}
+
+.navar-text-color {
+  color: var(--letras-oscuras);
 }
 
 .navar-selecion {
@@ -78,7 +88,7 @@ a {
 }
 
 .elemento-info:hover {
-  background-color: #c7cbce;
+  background-color: var(--letras-oscuras);
 }
 
 .caja-link-discord {
@@ -107,7 +117,7 @@ a {
   align-items: center;
   border-radius: 8px;
   gap: 1rem;
-  
+
 }
 
 .contenido-servicio {
@@ -117,7 +127,7 @@ a {
 }
 
 .contenido-servicio:hover {
-  background-color: #c7cbce;
+  background-color: var(--letras-oscuras);
 }
 
 .contenedor-img {
