@@ -29,27 +29,17 @@ const contenidoInfo = `<div class="contenedor-elementos-info">
 </div>
 
 </div>`;
-const contenidoServicios = `<section class="contenedor-elementos-servicio">
-<div class="contenido-servicio">
+const contenidoServicios = `<a href="#" onclick="mostrarServicioCanva()" class="contenedor-elementos-servicio" id="servicio-canva">
+<div class="contenido-servicio-canva">
   <div class="contenedor-img">
-    <img class="img-servicio" src="public/img/image.png" alt="">
+  <img class="img-servicio" src="public/img/elementos-canva/Logo-canva-pro-sin-fondo.webp" alt="">
   </div>
   <div class="contenedor-textos-servicio">
-    <H1 class="titulo-prodcuto">Landing page</H1>
-    <h2 class="descripcion-servicio">Creo la landig page ideal para tu negocio</h2>
+    <H1 class="titulo-producto">Canva pro</H1>
+    <h2 class="descripcion-servicio">Disfruta del contenido premium de canva al mejor precio</h2>
   </div>
   </div>
-
-  <div class="contenido-servicio">
-    <div class="contenedor-img">
-      <img class="img-servicio" src="public/img/image.png" alt="">
-    </div>
-    <div class="contenedor-textos-servicio">
-      <H1 class="titulo-prodcuto">LinkTree</H1>
-      <h2 class="descripcion-servicio">Creo el servicio de links ideal para tu negocio</h2>
-    </div>
-    </div>
-</section>`;
+</a>`;
 
 contenedorDelContenido.innerHTML = contenidoInfo;
 
@@ -80,3 +70,65 @@ cajaInfo.addEventListener("click", function eventos(event) {
   }
 });
 
+
+const mostrarServicioCanva = () => {
+  const servicioCanva = document.getElementById("servicio-canva");
+  const planesCanva = `<section class="caja-servicio">
+      
+      <div class="contenedor-servicio-plata">
+      
+        <div class="caja-descuento">
+          <img src="public/img/elementos-canva/imd-descuento.webp" alt="" class="img-descuento">
+          <h2 class="nombre-plan">PLAN PLATA</h2>
+        </div>
+      
+        <div class="caja-logo-servicio">
+          <img src="public/img/elementos-canva/Logo-canva-pro-sin-fondo.webp" alt="" class="logo-servicio">
+        </div>
+      
+        <div class="caja-descripcion-servicio">
+          <h1 class="descripcion-del-servicio">CANVA PRO 6 MESES</h1>
+        </div>
+      
+        <div class="caja-precios">
+          <p class="precio-servicio"><span class="simbolo-dolar">$</span>6,45</p>
+          <p class="precio-descuento"><span>$</span>12,45</p>
+        </div>
+      
+        <div class="caja-btn-pedir">
+          <a href="" class="btn-pedir-servicio-plata">Pedir</a>
+        </div>
+      
+      </div>
+      
+      <div class="contenedor-servicio-oro">
+      
+        <div class="caja-descuento">
+          <img src="public/img/elementos-canva/imd-descuento.webp" alt="" class="img-descuento">
+          <h2 class="nombre-plan">PLAN ORO</h2>
+        </div>
+      
+        <div class="caja-logo-servicio">
+          <img src="public/img/elementos-canva/Logo-canva-pro-sin-fondo.webp" alt="" class="logo-servicio">
+        </div>
+      
+        <div class="caja-descripcion-servicio">
+          <h1 class="descripcion-del-servicio">CANVA PRO 12 MESES</h1>
+        </div>
+      
+        <div class="caja-precios">
+          <p class="precio-servicio"><span class="simbolo-dolar">$</span>10,45</p>
+          <p class="precio-descuento"><span>$</span>20,45</p>
+        </div>
+      
+        <div class="caja-btn-pedir">
+          <a href="" class="btn-pedir-servicio-oro">Pedir</a>
+        </div>
+      
+      </div>
+      
+      </section>`;
+
+  contenedorDelContenido.innerHTML = planesCanva;
+
+}

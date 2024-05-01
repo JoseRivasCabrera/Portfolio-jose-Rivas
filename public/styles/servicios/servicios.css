@@ -6,8 +6,8 @@
 .contenedor-servicio-plata, .contenedor-servicio-oro  {
   width: 35%;
   padding: 15px;
-  /* border: 1px solid salmon; */
   border-radius: 18px;
+  background-color: white
 }
 
 .contenedor-servicio-plata {
@@ -25,8 +25,6 @@
 .contenedor-servicio-oro:hover {
   background-color: #FFED9F;
 }
-
-
 
 .caja-descuento {
   display: flex;
@@ -58,7 +56,7 @@
   justify-content: center;
 }
 
-.descripcion-servicio {
+.descripcion-del-servicio {
   font-weight: 400;
   font-size: 30px;
   text-align: center;

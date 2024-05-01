@@ -8,7 +8,6 @@
 main {
   display: flex;
   justify-content: center;
-
 }
 
 a {
@@ -120,10 +119,15 @@ a {
 
 }
 
-.contenido-servicio {
+.contenido-servicio-canva {
   display: flex;
-  border: 2px solid var(--fondo-gris);
+  border: 1px solid #4B5FE3;
+  border-radius: 8px;
   padding: 15px;
+}
+
+.contenido-servicio-canva:hover {
+  background-color: #C2E6FA;
 }
 
 .contenido-servicio:hover {
@@ -147,9 +151,10 @@ a {
   align-items: center;
   text-align: center;
   gap: .5rem;
+  color: black;
 }
 
-.titulo-servicio {
+.titulo-producto {
   font-size: 32px;
 }
 
