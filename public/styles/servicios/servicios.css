@@ -121,7 +121,7 @@
 .btn-pedir-servicio-plata, .btn-pedir-servicio-oro {
   width: 100%;
   font-weight: bold;
-  padding: 10px 0;
+  padding-top: 10px;
   border-radius: 8px;
   text-align: center;
   color: white;
@@ -144,8 +144,12 @@
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
 
+  .caja-servicio {
+    gap: 15px;
+  }
+
   .contenedor-servicio-plata, .contenedor-servicio-oro  {
-    width: 47%;
+    width: 75%;
   }
 
   .img-descuento {
@@ -153,19 +157,33 @@
   }
 
   .nombre-plan {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .caja-logo-servicio {
-    padding-top: 8px;
+    padding-top: 0px;
   }
   
   .logo-servicio {
-    width: 100%;
+    width: 80%;
   }
   
   .descripcion-del-servicio {
-    font-size: 12px;
+    font-size: 1.3rem;
   }
-  
-}
+
+  .caja-precios {
+    gap: 5%;
+    padding-top: 20px;
+  }
+
+  .precio-servicio {
+    font-size: 48px;
+  }
+
+  .btn-pedir-servicio-plata, .btn-pedir-servicio-oro {
+    font-size: 28px;
+  }
+
+
+}  
