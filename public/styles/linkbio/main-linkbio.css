@@ -116,7 +116,6 @@ a {
   align-items: center;
   border-radius: 8px;
   gap: 1rem;
-
 }
 
 .contenido-servicio-canva {
@@ -145,19 +144,46 @@ a {
 }
 
 .contenedor-textos-servicio {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+
   gap: .5rem;
   color: black;
 }
 
 .titulo-producto {
   font-size: 32px;
+  text-align: center;
 }
 
 .descripcion-servicio {
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+
+  .contenedor-elementos {
+    width: 90%;
+  }
+
+  .img-servicio {
+    width: 100%;
+  }
+
+  .titulo-producto {
+    font-size: 28px;
+  }
+
+  .descripcion-servicio {
+    font-size: 16px;
+    text-align: start;
+  }
+
 }

@@ -74,6 +74,10 @@ cajaInfo.addEventListener("click", function eventos(event) {
 const mostrarServicioCanva = () => {
   const servicioCanva = document.getElementById("servicio-canva");
   const planesCanva = `<section class="caja-servicio">
+
+      <div class="caja-btn-prueba">
+         <a href="https://tinyurl.com/solicitarCanvaPro" class="btn-solicitar-prueba">Pide tu Canva pro <span class="btn-palabra-gratis">GRATIS!!</span></a>
+      </div>
       
       <div class="contenedor-servicio-plata">
       

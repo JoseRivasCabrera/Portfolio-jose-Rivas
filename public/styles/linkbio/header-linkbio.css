@@ -17,12 +17,14 @@ header {
 }
 
 .icono-header {
-  width: 15%;
+  width: 20%;
   padding: 6px 14px;
   border-radius: 5px;
 }
 
 .titulo-pagina {
+  display: flex;
+  align-items: center;
   font-family: "Teko", sans-serif;
   font-size: 32px;
   font-weight: 400;
@@ -50,4 +52,24 @@ header {
 .bxl-tiktok {
   color: black;
   font-size: 20px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+
+  .header-contenedor {
+    width: 100%;
+  }
+
+  .icono-header {
+    width: 35%;
+  }
+  
+  
 }

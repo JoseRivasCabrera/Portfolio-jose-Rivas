@@ -1,6 +1,30 @@
 .caja-servicio {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.caja-btn-prueba {
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-solicitar-prueba {
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background-color: #cc5e21;
+}
+
+.btn-solicitar-prueba:hover {
+  background-color: #ac4812;
+}
+
+.btn-palabra-gratis {
+  color: rgb(243, 233, 57);
 }
 
 .contenedor-servicio-plata, .contenedor-servicio-oro  {
@@ -110,4 +134,38 @@
 
 .btn-pedir-servicio-oro:hover {
   background-color: #E8A83D;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+
+  .contenedor-servicio-plata, .contenedor-servicio-oro  {
+    width: 47%;
+  }
+
+  .img-descuento {
+    width: 30%;
+  }
+
+  .nombre-plan {
+    font-size: 14px;
+  }
+
+  .caja-logo-servicio {
+    padding-top: 8px;
+  }
+  
+  .logo-servicio {
+    width: 100%;
+  }
+  
+  .descripcion-del-servicio {
+    font-size: 12px;
+  }
+  
 }
