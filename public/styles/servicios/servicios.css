@@ -148,6 +148,10 @@
     gap: 15px;
   }
 
+  .caja-btn-prueba {
+    padding-top: 8px;
+  }
+
   .contenedor-servicio-plata, .contenedor-servicio-oro  {
     width: 75%;
   }

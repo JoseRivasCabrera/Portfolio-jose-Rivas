@@ -173,12 +173,18 @@ a {
     width: 90%;
   }
 
+  .contenedor-img {
+    width: 50%;
+    justify-content: start;
+  }
+  
+
   .img-servicio {
     width: 100%;
   }
 
   .titulo-producto {
-    font-size: 28px;
+    font-size: 1.7rem;
   }
 
   .descripcion-servicio {
