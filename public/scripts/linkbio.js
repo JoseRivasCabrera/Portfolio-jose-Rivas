@@ -96,7 +96,7 @@ const mostrarServicioCanva = () => {
         </div>
       
         <div class="caja-btn-pedir">
-          <a href="" class="btn-pedir-servicio-plata">Pedir</a>
+          <a href="https://tinyurl.com/planplata" class="btn-pedir-servicio-plata">Pedir</a>
         </div>
       
       </div>
@@ -122,7 +122,7 @@ const mostrarServicioCanva = () => {
         </div>
       
         <div class="caja-btn-pedir">
-          <a href="" class="btn-pedir-servicio-oro">Pedir</a>
+          <a href="https://tinyurl.com/canvaplanoro" class="btn-pedir-servicio-oro">Pedir</a>
         </div>
       
       </div>
