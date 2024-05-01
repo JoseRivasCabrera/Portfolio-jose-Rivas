@@ -40,9 +40,11 @@
   width: 80%;
   font-size: 18px;
   text-align: center;
+  font-family: roboto, sans-serif;
 }
 
 .caja-logo-servicio {
+  padding-top: 12px;
   display: flex;
   justify-content: center;
 }
@@ -57,7 +59,8 @@
 }
 
 .descripcion-del-servicio {
-  font-size: 17px;
+  font-weight: 700;
+  font-size: 16px;
   padding: 8px 0;
 }
 
@@ -65,7 +68,7 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
-  padding-top: 5px;
+  padding-top: 8px;
   gap: 5%;
 }
 
@@ -93,6 +96,7 @@
 
 .btn-pedir-servicio-plata, .btn-pedir-servicio-oro {
   width: 100%;
+  font-weight: bold;
   padding: 10px 0;
   border-radius: 8px;
   text-align: center;

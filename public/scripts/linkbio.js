@@ -87,7 +87,7 @@ const mostrarServicioCanva = () => {
         </div>
       
         <div class="caja-descripcion-servicio">
-          <h1 class="descripcion-del-servicio">CANVA PRO 6 MESES</h1>
+          <h1 class="descripcion-del-servicio">+6 MESES CANVA PRO</h1>
         </div>
       
         <div class="caja-precios">
@@ -113,7 +113,7 @@ const mostrarServicioCanva = () => {
         </div>
       
         <div class="caja-descripcion-servicio">
-          <h1 class="descripcion-del-servicio">CANVA PRO 12 MESES</h1>
+          <h1 class="descripcion-del-servicio">+12 MESES CANVA PRO</h1>
         </div>
       
         <div class="caja-precios">
