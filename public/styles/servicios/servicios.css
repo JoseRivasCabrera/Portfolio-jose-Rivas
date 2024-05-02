@@ -120,6 +120,7 @@
 
 .btn-pedir-servicio-plata, .btn-pedir-servicio-oro {
   width: 100%;
+  padding: 8px;
   font-weight: bold;
   padding-top: 10px;
   border-radius: 8px;
@@ -187,7 +188,6 @@
 
   .btn-pedir-servicio-plata, .btn-pedir-servicio-oro {
     font-size: 28px;
-    padding: 8px;
   }
 
 

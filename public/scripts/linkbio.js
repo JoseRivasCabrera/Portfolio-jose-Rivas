@@ -70,8 +70,8 @@ cajaInfo.addEventListener("click", function eventos(event) {
   }
 });
 
+
  const mostrarServicioCanva = () => {
-   const servicioCanva = document.getElementById("servicio-canva");
    const planesCanva = `<section class="caja-servicio">
 
        <div class="caja-btn-prueba">
@@ -138,10 +138,10 @@ cajaInfo.addEventListener("click", function eventos(event) {
  // ↓↓ al estar mostrando un servicio y darle click
 //   a la pestana servicios, debe volverte a cargar los servicios (NO FUNCIONA AUN) ↓↓
 
-// const recargarServicios = () => {
-//   if (valorClick == 1) {
-//     contenedorDelContenido.innerHTML = contenidoInfo;
-//   }
-// };
+ const recargarServicios = () => {
+   if (valorClick == 1) {
+    contenedorDelContenido.innerHTML = contenidoServicios;
+   }
+ };
 
-// servicios.addEventListener("click", recargarServicios());
+ cajaJervicios.addEventListener("click", recargarServicios);
