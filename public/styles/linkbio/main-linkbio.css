@@ -173,6 +173,10 @@ a {
     width: 90%;
   }
 
+  .contenedor-elementos-servicio {
+    width: 95%;
+  }
+
   .contenedor-img {
     width: 50%;
     justify-content: start;
@@ -189,7 +193,6 @@ a {
 
   .descripcion-servicio {
     font-size: 16px;
-    text-align: start;
   }
 
 }
