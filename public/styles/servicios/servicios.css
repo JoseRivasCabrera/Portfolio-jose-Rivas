@@ -2,20 +2,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-bottom: 15px;
 }
 
 .caja-btn-prueba {
   width: 100%;
-  padding: 15px 0;
+  padding: 15px;
   display: flex;
   justify-content: center;
 }
 
 .btn-solicitar-prueba {
-  padding: 8px;
+  width: 40%;
+  padding: 4px;
   border-radius: 8px;
   color: white;
+  font-size: 22px;
   font-weight: bold;
+  text-align: center;
   background-color: #cc5e21;
 }
 
@@ -86,6 +90,7 @@
   font-weight: 700;
   font-size: 16px;
   padding: 8px 0;
+  text-align: center;
 }
 
 .caja-precios {
@@ -137,9 +142,62 @@
   background-color: #E8A83D;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  
+  /* .caja-servicio {
+    gap: 15px;
+  } */
+  
+  .caja-btn-prueba {
+    padding-bottom: 0;
+  }
 
+  .btn-solicitar-prueba {
+    width: 50%;
+    text-align: center;
+    font-size: 32px;
+  }
 
+  .caja-servicio {
+    gap: 15px;
+  }
+
+  .contenedor-servicio-plata, .contenedor-servicio-oro  {
+    width: 45%;
+  }
+
+  .nombre-plan {
+    font-size: 28px;
+  }
+
+  .caja-logo-servicio {
+    padding-top: 0px;
+  }
+
+  .logo-servicio {
+    width: 80%;
+  }
+
+  .descripcion-del-servicio {
+    font-size: 1.5rem;
+  }
+
+  .caja-precios {
+    gap: 5%;
+    padding-top: 20px;
+  }
+
+  .precio-servicio {
+    font-size: 48px;
+  }
+
+  .caja-btn-prueba {
+    padding: 18px;
+  }
+
+  .btn-pedir-servicio-plata, .btn-pedir-servicio-oro {
+    font-size: 32px;
+  }
 
 }
 
@@ -150,7 +208,11 @@
   }
 
   .caja-btn-prueba {
-    padding-top: 8px;
+    padding-bottom: 0;
+  }
+
+  .btn-solicitar-prueba {
+    width: 70%;
   }
 
   .contenedor-servicio-plata, .contenedor-servicio-oro  {

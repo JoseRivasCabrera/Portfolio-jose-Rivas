@@ -43,7 +43,6 @@ a {
   font-size: 22px;
   font-weight: bold;
   font-family: "times new roman", sans-serif;
-
 }
 
 .navar-text-color {
@@ -65,7 +64,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 15px 0;
+  /* padding: 15px 0; */
 }
 
 .contenedor-elementos-info {
@@ -111,11 +110,12 @@ a {
 
 .contenedor-elementos-servicio {
   width: 80%;
+  padding: 15px;
+  border-radius: 8px;
+  gap: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 8px;
-  gap: 1rem;
 }
 
 .contenido-servicio-canva {
@@ -165,7 +165,39 @@ a {
   text-align: center;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+
+  .navar-pestanha {
+  font-size: 36px;
+  }
+
+  .contenedor-elementos {
+    width: 90%;
+  }
+
+  .contenedor-elementos-servicio {
+    width: 85%;
+    padding: 15px;
+  }
+
+  .contenedor-img {
+    width: 50%;
+  }
+
+  .img-servicio {
+    width: 80%;
+  }
+
+  .titulo-producto {
+    font-size: 3.5rem;
+  }
+
+  .descripcion-servicio {
+    font-size: 20px;
+  }
+
+
+}
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
 
@@ -188,7 +220,7 @@ a {
   }
 
   .titulo-producto {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 
   .descripcion-servicio {

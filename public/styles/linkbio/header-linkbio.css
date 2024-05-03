@@ -32,14 +32,20 @@ header {
 
 .header-bloque-der {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-tiktok {
+  display: flex;
   align-items: center;
   gap: 10px;
   background-color: var(--fondo-gris);
-  padding: 0 20px;
+  padding: 10px 20px;
   border-radius: 15px;
 }
 
-.header-bloque-der:hover {
+.contenedor-tiktok:hover {
   background-color: var(--letras-oscuras);
   transition: .3s;
 }
@@ -55,11 +61,35 @@ header {
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
 
+  .header-contenedor {
+    width: 100%;
+  }
 
+  .icono-header {
+    width: 35%;
+  }
+  
+  .titulo-pagina {
+    font-size: 52px;
+    font-weight: 500;
+  }
+  .contenedor-tiktok {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .tiktok {
+    font-size: 2.5rem;
+  }
+  
+  .bxl-tiktok {
+    font-size: 32px;
+  }
 
 }
+
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
 
@@ -70,6 +100,5 @@ header {
   .icono-header {
     width: 35%;
   }
-  
   
 }
